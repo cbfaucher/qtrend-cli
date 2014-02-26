@@ -10,5 +10,5 @@ import com.quartz.qutils.commands.CommandManager
  * To change this template use File | Settings | File Templates.
  */
 class Dummy {
-  val commandmanager = new CommandManager()
+  val commandmanager = new CommandManager(Seq())
 }
