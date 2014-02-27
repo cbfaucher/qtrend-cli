@@ -19,7 +19,7 @@ import com.quartz.qutilities.util.QProperties
  */
 @Configuration
 @ComponentScan(Array("com.quartz.qtrend.cli"))
-class Application {
+class TestSpringApp {
 
   @Bean
   def getProperties: QProperties = QProperties.load {
