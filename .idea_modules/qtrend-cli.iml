@@ -20,6 +20,7 @@
       <sourceFolder url="file://$MODULE_DIR$/../src/test/scala" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/../src/test/java" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/../src/test/resources" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../src/unit-tests/scala" isTestSource="true" />
       <excludeFolder url="file://$MODULE_DIR$/../target" />
     </content>
     <orderEntry type="inheritedJdk" />
@@ -38,6 +39,8 @@
     <orderEntry type="library" name="SBT: org.springframework:spring-jdbc:4.0.2.RELEASE" level="project" />
     <orderEntry type="library" name="SBT: org.springframework:spring-tx:4.0.2.RELEASE" level="project" />
     <orderEntry type="library" name="SBT: mysql:mysql-connector-java:5.1.6" level="project" />
+    <orderEntry type="library" name="SBT: org.joda:joda-convert:1.6" level="project" />
+    <orderEntry type="library" name="SBT: joda-time:joda-time:2.3" level="project" />
     <orderEntry type="library" scope="TEST" name="SBT: org.scalatest:scalatest_2.10:2.0:test" level="project" />
     <orderEntry type="library" scope="TEST" name="SBT: org.scala-lang:scala-reflect:2.10.0:test" level="project" />
     <orderEntry type="library" name="qutilities-1.7-SNAPSHOT.jar" level="project" />

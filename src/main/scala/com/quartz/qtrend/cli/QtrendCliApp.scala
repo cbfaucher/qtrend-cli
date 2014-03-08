@@ -1,6 +1,5 @@
 package com.quartz.qtrend.cli
 
-import org.springframework.context.annotation.AnnotationConfigApplicationContext
 import com.quartz.qutils.commands.{Command, CommandManager}
 import Command._
 import com.quartz.qtrend.cli.commands.LoadTickerCmd
@@ -12,10 +11,8 @@ object QtrendCliApp {
 
   private val commandManager = new CommandManager(
     findCommand, helpCommand, exitCommand,
-    Command("load ticker", "<ticker>: Loads given ticker", LoadTickerCmd.apply)
+    Command("load ticker", "<ticker>: Loads given ticker", ctx => LoadTickerCmd.apply(ctx))
   )
-
-  val context = new AnnotationConfigApplicationContext(classOf[TestSpringApp])
 
   private[this] def startConsole() {
 
